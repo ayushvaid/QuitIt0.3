@@ -16,4 +16,15 @@
     <string name="interests_4">Interest4</string>
     <string name="interests_5">Interest5</string>
     <string name="interests_6">Interest6</string>
+    <string-array name="future_array">
+        <item>Aspiring to do a Job?</item>
+        <item>Thinking to start a family?</item>
+        <item>Item3</item>
+        <item>item4</item>
+        <item>item5</item>
+        <item>item6</item>
+        <item>item7</item>
+        <item>item8</item>
+    </string-array>
+    <string name="future_prompt">Choose one</string>
 </resources>

@@ -55,7 +55,6 @@
             android:textStyle="bold" />
 
         <EditText
-
             android:id="@+id/age_edit_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -208,6 +207,79 @@
 
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:text="Smoking History :"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How long have you been smoking?"
+            android:layout_marginTop="5dp"
+            />
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/years_edit_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Years"
+                android:inputType="number"
+                />
+            <EditText
+                android:id="@+id/months_edit_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Months"
+                android:inputType="number"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How many times do you smoke in a day"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/often_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="eg:4"
+            android:inputType="number"
+            android:paddingLeft="24dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Average cost of each ciggerate"/>
+        <EditText
+            android:id="@+id/cost_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="in Rupees"
+            android:inputType="number"
+            android:paddingLeft="24dp"
+            />
+
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -216,7 +288,6 @@
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         >
-
 
         <TextView
             android:layout_width="0dp"
@@ -321,7 +392,30 @@
         </RadioGroup>
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:text="Future Plans :"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/default_margin"/>
 
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/future_array"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:drawSelectorOnTop="true"
+            android:hint = "@string/future_prompt"/>
+    </LinearLayout>
 </LinearLayout>
 </ScrollView>
-    </LinearLayout>
+</LinearLayout>
