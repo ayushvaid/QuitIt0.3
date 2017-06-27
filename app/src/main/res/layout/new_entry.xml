@@ -257,9 +257,8 @@
             android:layout_marginBottom="5dp"/>
         <EditText
             android:id="@+id/often_edit_text"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:hint="eg:4"
             android:inputType="number"
             android:paddingLeft="24dp"
@@ -271,9 +270,8 @@
             android:text="Average cost of each ciggerate"/>
         <EditText
             android:id="@+id/cost_edit_text"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:hint="in Rupees"
             android:inputType="number"
             android:paddingLeft="24dp"

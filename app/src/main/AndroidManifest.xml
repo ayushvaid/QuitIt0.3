@@ -19,9 +19,6 @@
         <activity android:name=".NewEntryActivity"
                 android:parentActivityName=".MainActivity">
         </activity>
-        <activity android:name=".AllEntries"
-            android:parentActivityName=".MainActivity">
-        </activity>
 
     </application>
 
